@@ -5,8 +5,8 @@ class RockPaperScissors {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         Random rd=new Random();
-        int ub=3;
-        int cp=rd.nextInt(ub);
+        int ub=3;                                                              //for the upperlimit of random 
+        int cp=rd.nextInt(ub);                                                 //this will generate random number from 0-2 hence accordingly values will be assigned
         int userp=0;                                                           //for counting the score of the user
         int comp=0;                                                            //for counting the score of computer         
         String cb="";                                                          // will store the input of computer
